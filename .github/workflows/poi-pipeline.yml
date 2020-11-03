@@ -28,4 +28,4 @@ jobs:
     - name: Test
       run: dotnet test $SOLUTIONPATH --no-restore --verbosity normal
     - name: Publish
-      run: detnet publish $SOLUTIONPATH -c Release
+      run: dotnet publish $SOLUTIONPATH -c Release
