@@ -27,3 +27,5 @@ jobs:
       run: dotnet build $SOLUTIONPATH --configuration Release --no-restore
     - name: Test
       run: dotnet test $SOLUTIONPATH --no-restore --verbosity normal
+    - name: Publish
+      run: detnet publish $SOLUTIONPATH -c Release
