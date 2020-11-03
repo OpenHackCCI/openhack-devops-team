@@ -1,0 +1,17 @@
+# These owners will be the default owners for everything in
+# the repo. Unless a later match takes precedence,
+# these owners will be requested for
+# review when someone opens a pull request.
+* @ConradIlgmann
+
+# Theses owners will be resposible of the POI API
+apis/poi @hacker1zcg
+
+# Theses owners will be resposible of the TRIPS API
+apis/trips @hacker1zcg
+
+# Theses owners will be resposible of the USER-JAVA API
+apis/user-java @hacker1zcg
+
+# Theses owners will be resposible of the USERPROFILE API
+apis/userprofile @hacker1zcg
