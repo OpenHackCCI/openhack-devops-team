@@ -43,7 +43,7 @@ jobs:
       - name: Login to Azure Container Registry
         uses: docker/login-action@v1
         with:
-          registry: openhack7x60npp2acr
+          registry: openhack7x60npp2acr.azurecr.io
           username: ${{ secrets.AZURE_CLIENT_ID }}
           password: ${{ secrets.AZURE_CLIENT_SECRET }}
       - name: Build and push Docker images
